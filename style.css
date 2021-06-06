@@ -1,0 +1,79 @@
+ul.nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+li.nav-item {
+            float: left;
+        }
+
+li.nav-item a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change the link color to #111 (black) on hover */
+li.nav-item a:hover {
+            background-color: #dddddd;
+        }
+
+        .active {
+            background-color: #ffffff;
+            color: #111;
+        }
+
+
+body {
+    font-family: helvetica;
+    background-image: url("coldplay_hintergrund.png");
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.headline {
+    font-size: 170px;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    font-size: 30px;
+    color: white;
+}
+
+p { 
+    font-size: 30px;
+}
+
+.sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+}
+
+img {
+    float: right;
+}
+
+table {
+    float: right;
+    width: 60%;
+    border-collapse: collapse;
+}
+
+td,th {
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
